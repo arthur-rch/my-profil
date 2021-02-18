@@ -1,0 +1,93 @@
+body {
+  color: #252a34;
+	font-size: 22px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #f6f5f5;
+
+}
+h1 {
+  color: #252a34;
+	font-size: 47px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: #161d6f;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #1687a7;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #383e56;
+}
+
+#mainpp{
+  width: 230px;
+  border-radius: 300px
+}
+
+.btn-blue{
+  background-color: rgba(22, 135, 167, 0.50);
+  color: white;
+  padding: 6px 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  border-radius: 3px;
+}
+
+.main-container{
+width: 750px;
+margin: 0px auto;
+}
+
+.main-card {
+  width: auto;
+	height: auto;
+	padding: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: rgba(135, 140, 171, 0.42);
+}
+
+.sub-card{
+	width: 70%;
+	height: auto;
+	padding: 30px;
+	border-radius: 3px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.33);
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: rgba(135, 140, 171, 0.42)
+}
+
+.listefollow{list-style: none;
+  padding-left: 0px;
+}
+
+.listefollow li {
+display: inline;
+padding: 10p;
+}
+
+.listefollow i {
+  font-size: 40px;
+}
+
+@media (max-width:800px) {
+  .main-container {
+    width: 600;
+  }
+}
+
+@media (max-width:500px) {
+  .main-container {
+    width: 300;
+  }
+}
